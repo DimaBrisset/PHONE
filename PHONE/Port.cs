@@ -8,5 +8,13 @@ namespace PHONE
 {
     internal class Port
     {
+        public delegate void RingAcceptHandle(Port sender, int abonentNumber);
+        public event RingAcceptHandle? RingNotify;
+
+
+    
+
+
+
     }
 }
